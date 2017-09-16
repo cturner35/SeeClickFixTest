@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		319F6B0C1F6DAF3800084D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B0B1F6DAF3800084D34 /* main.m */; };
+		319F6B0F1F6DAF3800084D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B0E1F6DAF3800084D34 /* AppDelegate.m */; };
+		319F6B121F6DAF3800084D34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B111F6DAF3800084D34 /* ViewController.m */; };
+		319F6B151F6DAF3800084D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319F6B131F6DAF3800084D34 /* Main.storyboard */; };
+		319F6B171F6DAF3800084D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319F6B161F6DAF3800084D34 /* Assets.xcassets */; };
+		319F6B1A1F6DAF3800084D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319F6B181F6DAF3800084D34 /* LaunchScreen.storyboard */; };
+		319F6B251F6DAF3800084D34 /* SeeClickFixCodeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B241F6DAF3800084D34 /* SeeClickFixCodeTestTests.m */; };
+		319F6B301F6DAF3800084D34 /* SeeClickFixCodeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B2F1F6DAF3800084D34 /* SeeClickFixCodeTestUITests.m */; };
+		5A10219A81E2E3029F8DCD92 /* libPods-SeeClickFixCodeTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AE34927EC0118CA3B5CBA7 /* libPods-SeeClickFixCodeTestUITests.a */; };
+		6315751407322B0498CA2AA1 /* libPods-SeeClickFixCodeTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2DE8A54D766970CA5CCBE8 /* libPods-SeeClickFixCodeTestTests.a */; };
+		E91F912FE15536972EF64FB3 /* libPods-SeeClickFixCodeTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B7F0954C7A715C5308A024 /* libPods-SeeClickFixCodeTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		319F6B211F6DAF3800084D34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 319F6AFF1F6DAF3800084D34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 319F6B061F6DAF3800084D34;
+			remoteInfo = SeeClickFixCodeTest;
+		};
+		319F6B2C1F6DAF3800084D34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 319F6AFF1F6DAF3800084D34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 319F6B061F6DAF3800084D34;
+			remoteInfo = SeeClickFixCodeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E2DE8A54D766970CA5CCBE8 /* libPods-SeeClickFixCodeTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeeClickFixCodeTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		319F6B071F6DAF3800084D34 /* SeeClickFixCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeClickFixCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		319F6B0B1F6DAF3800084D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		319F6B0D1F6DAF3800084D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		319F6B0E1F6DAF3800084D34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		319F6B101F6DAF3800084D34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		319F6B111F6DAF3800084D34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		319F6B141F6DAF3800084D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		319F6B161F6DAF3800084D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		319F6B191F6DAF3800084D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		319F6B1B1F6DAF3800084D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319F6B201F6DAF3800084D34 /* SeeClickFixCodeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeClickFixCodeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		319F6B241F6DAF3800084D34 /* SeeClickFixCodeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeeClickFixCodeTestTests.m; sourceTree = "<group>"; };
+		319F6B261F6DAF3800084D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319F6B2B1F6DAF3800084D34 /* SeeClickFixCodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeClickFixCodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		319F6B2F1F6DAF3800084D34 /* SeeClickFixCodeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeeClickFixCodeTestUITests.m; sourceTree = "<group>"; };
+		319F6B311F6DAF3800084D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49AE34927EC0118CA3B5CBA7 /* libPods-SeeClickFixCodeTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeeClickFixCodeTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506ADACA1FC42CE9F5BC18A8 /* Pods-SeeClickFixCodeTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeClickFixCodeTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeClickFixCodeTestTests/Pods-SeeClickFixCodeTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D9F72CB2CEA1E13979739FC /* Pods-SeeClickFixCodeTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeClickFixCodeTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeClickFixCodeTestUITests/Pods-SeeClickFixCodeTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8AAFEBAB7BEFBBC6696911DF /* Pods-SeeClickFixCodeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeClickFixCodeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeeClickFixCodeTest/Pods-SeeClickFixCodeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		912C6CAA3B0D7C66CCF31A6D /* Pods-SeeClickFixCodeTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeClickFixCodeTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeeClickFixCodeTestTests/Pods-SeeClickFixCodeTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94B7F0954C7A715C5308A024 /* libPods-SeeClickFixCodeTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeeClickFixCodeTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4952426B4995115D21E391A /* Pods-SeeClickFixCodeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeClickFixCodeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeClickFixCodeTest/Pods-SeeClickFixCodeTest.release.xcconfig"; sourceTree = "<group>"; };
+		D12F5BF62D0A575494F189E1 /* Pods-SeeClickFixCodeTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeClickFixCodeTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeeClickFixCodeTestUITests/Pods-SeeClickFixCodeTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		319F6B041F6DAF3800084D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91F912FE15536972EF64FB3 /* libPods-SeeClickFixCodeTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319F6B1D1F6DAF3800084D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6315751407322B0498CA2AA1 /* libPods-SeeClickFixCodeTestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319F6B281F6DAF3800084D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A10219A81E2E3029F8DCD92 /* libPods-SeeClickFixCodeTestUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC0F848C2D064E7E9FCC0AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AAFEBAB7BEFBBC6696911DF /* Pods-SeeClickFixCodeTest.debug.xcconfig */,
+				C4952426B4995115D21E391A /* Pods-SeeClickFixCodeTest.release.xcconfig */,
+				912C6CAA3B0D7C66CCF31A6D /* Pods-SeeClickFixCodeTestTests.debug.xcconfig */,
+				506ADACA1FC42CE9F5BC18A8 /* Pods-SeeClickFixCodeTestTests.release.xcconfig */,
+				D12F5BF62D0A575494F189E1 /* Pods-SeeClickFixCodeTestUITests.debug.xcconfig */,
+				7D9F72CB2CEA1E13979739FC /* Pods-SeeClickFixCodeTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		319F6AFE1F6DAF3800084D34 = {
+			isa = PBXGroup;
+			children = (
+				319F6B091F6DAF3800084D34 /* SeeClickFixCodeTest */,
+				319F6B231F6DAF3800084D34 /* SeeClickFixCodeTestTests */,
+				319F6B2E1F6DAF3800084D34 /* SeeClickFixCodeTestUITests */,
+				319F6B081F6DAF3800084D34 /* Products */,
+				0DC0F848C2D064E7E9FCC0AF /* Pods */,
+				8DD95C561338A31CBCAC6595 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		319F6B081F6DAF3800084D34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				319F6B071F6DAF3800084D34 /* SeeClickFixCodeTest.app */,
+				319F6B201F6DAF3800084D34 /* SeeClickFixCodeTestTests.xctest */,
+				319F6B2B1F6DAF3800084D34 /* SeeClickFixCodeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		319F6B091F6DAF3800084D34 /* SeeClickFixCodeTest */ = {
+			isa = PBXGroup;
+			children = (
+				319F6B0D1F6DAF3800084D34 /* AppDelegate.h */,
+				319F6B0E1F6DAF3800084D34 /* AppDelegate.m */,
+				319F6B101F6DAF3800084D34 /* ViewController.h */,
+				319F6B111F6DAF3800084D34 /* ViewController.m */,
+				319F6B131F6DAF3800084D34 /* Main.storyboard */,
+				319F6B161F6DAF3800084D34 /* Assets.xcassets */,
+				319F6B181F6DAF3800084D34 /* LaunchScreen.storyboard */,
+				319F6B1B1F6DAF3800084D34 /* Info.plist */,
+				319F6B0A1F6DAF3800084D34 /* Supporting Files */,
+			);
+			path = SeeClickFixCodeTest;
+			sourceTree = "<group>";
+		};
+		319F6B0A1F6DAF3800084D34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				319F6B0B1F6DAF3800084D34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		319F6B231F6DAF3800084D34 /* SeeClickFixCodeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				319F6B241F6DAF3800084D34 /* SeeClickFixCodeTestTests.m */,
+				319F6B261F6DAF3800084D34 /* Info.plist */,
+			);
+			path = SeeClickFixCodeTestTests;
+			sourceTree = "<group>";
+		};
+		319F6B2E1F6DAF3800084D34 /* SeeClickFixCodeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				319F6B2F1F6DAF3800084D34 /* SeeClickFixCodeTestUITests.m */,
+				319F6B311F6DAF3800084D34 /* Info.plist */,
+			);
+			path = SeeClickFixCodeTestUITests;
+			sourceTree = "<group>";
+		};
+		8DD95C561338A31CBCAC6595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94B7F0954C7A715C5308A024 /* libPods-SeeClickFixCodeTest.a */,
+				2E2DE8A54D766970CA5CCBE8 /* libPods-SeeClickFixCodeTestTests.a */,
+				49AE34927EC0118CA3B5CBA7 /* libPods-SeeClickFixCodeTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		319F6B061F6DAF3800084D34 /* SeeClickFixCodeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 319F6B341F6DAF3800084D34 /* Build configuration list for PBXNativeTarget "SeeClickFixCodeTest" */;
+			buildPhases = (
+				736A1FC8E2D5584E4A93BB6E /* [CP] Check Pods Manifest.lock */,
+				319F6B031F6DAF3800084D34 /* Sources */,
+				319F6B041F6DAF3800084D34 /* Frameworks */,
+				319F6B051F6DAF3800084D34 /* Resources */,
+				86D85EBC016142318BA88411 /* [CP] Embed Pods Frameworks */,
+				FAAE5299E634C1F6FB780417 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeeClickFixCodeTest;
+			productName = SeeClickFixCodeTest;
+			productReference = 319F6B071F6DAF3800084D34 /* SeeClickFixCodeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		319F6B1F1F6DAF3800084D34 /* SeeClickFixCodeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 319F6B371F6DAF3800084D34 /* Build configuration list for PBXNativeTarget "SeeClickFixCodeTestTests" */;
+			buildPhases = (
+				6076D08656474A87F7CD1239 /* [CP] Check Pods Manifest.lock */,
+				319F6B1C1F6DAF3800084D34 /* Sources */,
+				319F6B1D1F6DAF3800084D34 /* Frameworks */,
+				319F6B1E1F6DAF3800084D34 /* Resources */,
+				C1DFCD25E8E5237FACE66ECE /* [CP] Embed Pods Frameworks */,
+				33EDB64B33DF7D4C69445D10 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				319F6B221F6DAF3800084D34 /* PBXTargetDependency */,
+			);
+			name = SeeClickFixCodeTestTests;
+			productName = SeeClickFixCodeTestTests;
+			productReference = 319F6B201F6DAF3800084D34 /* SeeClickFixCodeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		319F6B2A1F6DAF3800084D34 /* SeeClickFixCodeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 319F6B3A1F6DAF3800084D34 /* Build configuration list for PBXNativeTarget "SeeClickFixCodeTestUITests" */;
+			buildPhases = (
+				FCD22ACE100CFA2E38D6A27A /* [CP] Check Pods Manifest.lock */,
+				319F6B271F6DAF3800084D34 /* Sources */,
+				319F6B281F6DAF3800084D34 /* Frameworks */,
+				319F6B291F6DAF3800084D34 /* Resources */,
+				E3636477984AF0D1758DDF2B /* [CP] Embed Pods Frameworks */,
+				D1A3CFCB07CD390742022B69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				319F6B2D1F6DAF3800084D34 /* PBXTargetDependency */,
+			);
+			name = SeeClickFixCodeTestUITests;
+			productName = SeeClickFixCodeTestUITests;
+			productReference = 319F6B2B1F6DAF3800084D34 /* SeeClickFixCodeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		319F6AFF1F6DAF3800084D34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chris Turner";
+				TargetAttributes = {
+					319F6B061F6DAF3800084D34 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3H43DJFZZ4;
+						ProvisioningStyle = Automatic;
+					};
+					319F6B1F1F6DAF3800084D34 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3H43DJFZZ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 319F6B061F6DAF3800084D34;
+					};
+					319F6B2A1F6DAF3800084D34 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3H43DJFZZ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 319F6B061F6DAF3800084D34;
+					};
+				};
+			};
+			buildConfigurationList = 319F6B021F6DAF3800084D34 /* Build configuration list for PBXProject "SeeClickFixCodeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 319F6AFE1F6DAF3800084D34;
+			productRefGroup = 319F6B081F6DAF3800084D34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				319F6B061F6DAF3800084D34 /* SeeClickFixCodeTest */,
+				319F6B1F1F6DAF3800084D34 /* SeeClickFixCodeTestTests */,
+				319F6B2A1F6DAF3800084D34 /* SeeClickFixCodeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		319F6B051F6DAF3800084D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319F6B1A1F6DAF3800084D34 /* LaunchScreen.storyboard in Resources */,
+				319F6B171F6DAF3800084D34 /* Assets.xcassets in Resources */,
+				319F6B151F6DAF3800084D34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319F6B1E1F6DAF3800084D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319F6B291F6DAF3800084D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33EDB64B33DF7D4C69445D10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeClickFixCodeTestTests/Pods-SeeClickFixCodeTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6076D08656474A87F7CD1239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeeClickFixCodeTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		736A1FC8E2D5584E4A93BB6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeeClickFixCodeTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86D85EBC016142318BA88411 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeClickFixCodeTest/Pods-SeeClickFixCodeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1DFCD25E8E5237FACE66ECE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeClickFixCodeTestTests/Pods-SeeClickFixCodeTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A3CFCB07CD390742022B69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeClickFixCodeTestUITests/Pods-SeeClickFixCodeTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3636477984AF0D1758DDF2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeClickFixCodeTestUITests/Pods-SeeClickFixCodeTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAAE5299E634C1F6FB780417 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SeeClickFixCodeTest/Pods-SeeClickFixCodeTest-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeClickFixCodeTest/Pods-SeeClickFixCodeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCD22ACE100CFA2E38D6A27A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeeClickFixCodeTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		319F6B031F6DAF3800084D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319F6B121F6DAF3800084D34 /* ViewController.m in Sources */,
+				319F6B0F1F6DAF3800084D34 /* AppDelegate.m in Sources */,
+				319F6B0C1F6DAF3800084D34 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319F6B1C1F6DAF3800084D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319F6B251F6DAF3800084D34 /* SeeClickFixCodeTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319F6B271F6DAF3800084D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319F6B301F6DAF3800084D34 /* SeeClickFixCodeTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		319F6B221F6DAF3800084D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 319F6B061F6DAF3800084D34 /* SeeClickFixCodeTest */;
+			targetProxy = 319F6B211F6DAF3800084D34 /* PBXContainerItemProxy */;
+		};
+		319F6B2D1F6DAF3800084D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 319F6B061F6DAF3800084D34 /* SeeClickFixCodeTest */;
+			targetProxy = 319F6B2C1F6DAF3800084D34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		319F6B131F6DAF3800084D34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				319F6B141F6DAF3800084D34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		319F6B181F6DAF3800084D34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				319F6B191F6DAF3800084D34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		319F6B321F6DAF3800084D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		319F6B331F6DAF3800084D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		319F6B351F6DAF3800084D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AAFEBAB7BEFBBC6696911DF /* Pods-SeeClickFixCodeTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3H43DJFZZ4;
+				INFOPLIST_FILE = SeeClickFixCodeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turner.SeeClickFixCodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		319F6B361F6DAF3800084D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4952426B4995115D21E391A /* Pods-SeeClickFixCodeTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3H43DJFZZ4;
+				INFOPLIST_FILE = SeeClickFixCodeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turner.SeeClickFixCodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		319F6B381F6DAF3800084D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912C6CAA3B0D7C66CCF31A6D /* Pods-SeeClickFixCodeTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3H43DJFZZ4;
+				INFOPLIST_FILE = SeeClickFixCodeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turner.SeeClickFixCodeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeeClickFixCodeTest.app/SeeClickFixCodeTest";
+			};
+			name = Debug;
+		};
+		319F6B391F6DAF3800084D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506ADACA1FC42CE9F5BC18A8 /* Pods-SeeClickFixCodeTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3H43DJFZZ4;
+				INFOPLIST_FILE = SeeClickFixCodeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turner.SeeClickFixCodeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeeClickFixCodeTest.app/SeeClickFixCodeTest";
+			};
+			name = Release;
+		};
+		319F6B3B1F6DAF3800084D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12F5BF62D0A575494F189E1 /* Pods-SeeClickFixCodeTestUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3H43DJFZZ4;
+				INFOPLIST_FILE = SeeClickFixCodeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turner.SeeClickFixCodeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SeeClickFixCodeTest;
+			};
+			name = Debug;
+		};
+		319F6B3C1F6DAF3800084D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9F72CB2CEA1E13979739FC /* Pods-SeeClickFixCodeTestUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3H43DJFZZ4;
+				INFOPLIST_FILE = SeeClickFixCodeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turner.SeeClickFixCodeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SeeClickFixCodeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		319F6B021F6DAF3800084D34 /* Build configuration list for PBXProject "SeeClickFixCodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319F6B321F6DAF3800084D34 /* Debug */,
+				319F6B331F6DAF3800084D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		319F6B341F6DAF3800084D34 /* Build configuration list for PBXNativeTarget "SeeClickFixCodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319F6B351F6DAF3800084D34 /* Debug */,
+				319F6B361F6DAF3800084D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		319F6B371F6DAF3800084D34 /* Build configuration list for PBXNativeTarget "SeeClickFixCodeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319F6B381F6DAF3800084D34 /* Debug */,
+				319F6B391F6DAF3800084D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		319F6B3A1F6DAF3800084D34 /* Build configuration list for PBXNativeTarget "SeeClickFixCodeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319F6B3B1F6DAF3800084D34 /* Debug */,
+				319F6B3C1F6DAF3800084D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 319F6AFF1F6DAF3800084D34 /* Project object */;
+}
