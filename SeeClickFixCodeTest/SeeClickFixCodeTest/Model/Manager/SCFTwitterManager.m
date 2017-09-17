@@ -64,10 +64,10 @@ NSString * const TWITTER_URL = @"https://api.twitter.com/1.1/search/tweets.json?
 
 - (NSArray *)createTweetsFromResponse:(NSDictionary *)tweetResponse{
     
-    NSMutableArray *tweets = [[NSMutableArray alloc] init];
-    [tweets addObject:@"test"];
+    NSArray *jsonTweets = tweetResponse[@"statuses"];
+    NSArray *twitterTweets = [TWTRTweet tweetsWithJSONArray:jsonTweets];
     
-    return [tweets copy];
+    return [twitterTweets copy];
 }
 
 @end

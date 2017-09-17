@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "SCFTwitterManager.h"
 
 @interface SeeClickFixCodeTestTests : XCTestCase
 
@@ -24,9 +25,23 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testLoadTweets {
+    
+    XCTestExpectation *loadTweetsExpectation = [self expectationWithDescription:@"load tweets"];
+    
+    SCFTwitterManager *manager = [SCFTwitterManager sharedManager];
+    
+    [manager loadTweets:^(NSArray *tweets) {
+        
+        XCTAssert(tweets.count > 0);
+        
+        [loadTweetsExpectation fulfill];
+    }];
+    
+    [self waitForExpectationsWithTimeout:10 handler:^(NSError * _Nullable error) {
+        NSLog(@"Load Tweets Broken!");
+    }];
+    
 }
 
 - (void)testPerformanceExample {
