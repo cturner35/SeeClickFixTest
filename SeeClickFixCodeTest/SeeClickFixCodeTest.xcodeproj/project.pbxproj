@@ -15,6 +15,9 @@
 		319F6B1A1F6DAF3800084D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319F6B181F6DAF3800084D34 /* LaunchScreen.storyboard */; };
 		319F6B251F6DAF3800084D34 /* SeeClickFixCodeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B241F6DAF3800084D34 /* SeeClickFixCodeTestTests.m */; };
 		319F6B301F6DAF3800084D34 /* SeeClickFixCodeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B2F1F6DAF3800084D34 /* SeeClickFixCodeTestUITests.m */; };
+		319F6B4B1F6DFD9F00084D34 /* SCFTwitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B4A1F6DFD9F00084D34 /* SCFTwitterManager.m */; };
+		319F6B4E1F6E104600084D34 /* SCFTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B4D1F6E104600084D34 /* SCFTConstants.m */; };
+		319F6B521F6E1ABA00084D34 /* SCFTwitterStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B511F6E1ABA00084D34 /* SCFTwitterStatus.m */; };
 		5A10219A81E2E3029F8DCD92 /* libPods-SeeClickFixCodeTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AE34927EC0118CA3B5CBA7 /* libPods-SeeClickFixCodeTestUITests.a */; };
 		6315751407322B0498CA2AA1 /* libPods-SeeClickFixCodeTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2DE8A54D766970CA5CCBE8 /* libPods-SeeClickFixCodeTestTests.a */; };
 		E91F912FE15536972EF64FB3 /* libPods-SeeClickFixCodeTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B7F0954C7A715C5308A024 /* libPods-SeeClickFixCodeTest.a */; };
@@ -55,6 +58,12 @@
 		319F6B2B1F6DAF3800084D34 /* SeeClickFixCodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeClickFixCodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		319F6B2F1F6DAF3800084D34 /* SeeClickFixCodeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeeClickFixCodeTestUITests.m; sourceTree = "<group>"; };
 		319F6B311F6DAF3800084D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319F6B491F6DFD9F00084D34 /* SCFTwitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFTwitterManager.h; sourceTree = "<group>"; };
+		319F6B4A1F6DFD9F00084D34 /* SCFTwitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFTwitterManager.m; sourceTree = "<group>"; };
+		319F6B4C1F6E104600084D34 /* SCFTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFTConstants.h; sourceTree = "<group>"; };
+		319F6B4D1F6E104600084D34 /* SCFTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFTConstants.m; sourceTree = "<group>"; };
+		319F6B501F6E1ABA00084D34 /* SCFTwitterStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFTwitterStatus.h; sourceTree = "<group>"; };
+		319F6B511F6E1ABA00084D34 /* SCFTwitterStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFTwitterStatus.m; sourceTree = "<group>"; };
 		49AE34927EC0118CA3B5CBA7 /* libPods-SeeClickFixCodeTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeeClickFixCodeTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		506ADACA1FC42CE9F5BC18A8 /* Pods-SeeClickFixCodeTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeClickFixCodeTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeClickFixCodeTestTests/Pods-SeeClickFixCodeTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		7D9F72CB2CEA1E13979739FC /* Pods-SeeClickFixCodeTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeClickFixCodeTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeClickFixCodeTestUITests/Pods-SeeClickFixCodeTestUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +140,7 @@
 		319F6B091F6DAF3800084D34 /* SeeClickFixCodeTest */ = {
 			isa = PBXGroup;
 			children = (
+				319F6B441F6DFBD000084D34 /* Model */,
 				319F6B0D1F6DAF3800084D34 /* AppDelegate.h */,
 				319F6B0E1F6DAF3800084D34 /* AppDelegate.m */,
 				319F6B101F6DAF3800084D34 /* ViewController.h */,
@@ -168,6 +178,35 @@
 				319F6B311F6DAF3800084D34 /* Info.plist */,
 			);
 			path = SeeClickFixCodeTestUITests;
+			sourceTree = "<group>";
+		};
+		319F6B441F6DFBD000084D34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				319F6B4F1F6E1A7D00084D34 /* Twitter */,
+				319F6B481F6DFD2700084D34 /* Manager */,
+				319F6B4C1F6E104600084D34 /* SCFTConstants.h */,
+				319F6B4D1F6E104600084D34 /* SCFTConstants.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		319F6B481F6DFD2700084D34 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				319F6B491F6DFD9F00084D34 /* SCFTwitterManager.h */,
+				319F6B4A1F6DFD9F00084D34 /* SCFTwitterManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		319F6B4F1F6E1A7D00084D34 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				319F6B501F6E1ABA00084D34 /* SCFTwitterStatus.h */,
+				319F6B511F6E1ABA00084D34 /* SCFTwitterStatus.m */,
+			);
+			path = Twitter;
 			sourceTree = "<group>";
 		};
 		8DD95C561338A31CBCAC6595 /* Frameworks */ = {
@@ -475,9 +514,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319F6B521F6E1ABA00084D34 /* SCFTwitterStatus.m in Sources */,
+				319F6B4B1F6DFD9F00084D34 /* SCFTwitterManager.m in Sources */,
 				319F6B121F6DAF3800084D34 /* ViewController.m in Sources */,
 				319F6B0F1F6DAF3800084D34 /* AppDelegate.m in Sources */,
 				319F6B0C1F6DAF3800084D34 /* main.m in Sources */,
+				319F6B4E1F6E104600084D34 /* SCFTConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -723,6 +765,7 @@
 				319F6B361F6DAF3800084D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		319F6B371F6DAF3800084D34 /* Build configuration list for PBXNativeTarget "SeeClickFixCodeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +774,7 @@
 				319F6B391F6DAF3800084D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		319F6B3A1F6DAF3800084D34 /* Build configuration list for PBXNativeTarget "SeeClickFixCodeTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -739,6 +783,7 @@
 				319F6B3C1F6DAF3800084D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

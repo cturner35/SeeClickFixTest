@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <TwitterKit/TwitterKit.h>
+#import "SCFTwitterManager.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+   
+    SCFTwitterManager *manager = [SCFTwitterManager sharedManager];
+    
+    [manager loadTweets:^(NSArray *tweets) {
+        NSLog(@"Update UI");
+    }];
+    
 }
 
 
