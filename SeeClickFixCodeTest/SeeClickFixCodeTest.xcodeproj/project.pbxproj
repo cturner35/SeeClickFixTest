@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		319F6B0C1F6DAF3800084D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B0B1F6DAF3800084D34 /* main.m */; };
 		319F6B0F1F6DAF3800084D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B0E1F6DAF3800084D34 /* AppDelegate.m */; };
-		319F6B121F6DAF3800084D34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B111F6DAF3800084D34 /* ViewController.m */; };
 		319F6B151F6DAF3800084D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319F6B131F6DAF3800084D34 /* Main.storyboard */; };
 		319F6B171F6DAF3800084D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319F6B161F6DAF3800084D34 /* Assets.xcassets */; };
 		319F6B1A1F6DAF3800084D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319F6B181F6DAF3800084D34 /* LaunchScreen.storyboard */; };
@@ -18,6 +17,8 @@
 		319F6B4B1F6DFD9F00084D34 /* SCFTwitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B4A1F6DFD9F00084D34 /* SCFTwitterManager.m */; };
 		319F6B4E1F6E104600084D34 /* SCFTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B4D1F6E104600084D34 /* SCFTConstants.m */; };
 		319F6B521F6E1ABA00084D34 /* SCFTwitterStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B511F6E1ABA00084D34 /* SCFTwitterStatus.m */; };
+		319F6B581F6EAF9600084D34 /* SCFTwitterStatusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B571F6EAF9600084D34 /* SCFTwitterStatusTableViewController.m */; };
+		319F6B5B1F6EB36300084D34 /* SCFTweetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 319F6B5A1F6EB36300084D34 /* SCFTweetTableViewCell.m */; };
 		5A10219A81E2E3029F8DCD92 /* libPods-SeeClickFixCodeTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AE34927EC0118CA3B5CBA7 /* libPods-SeeClickFixCodeTestUITests.a */; };
 		6315751407322B0498CA2AA1 /* libPods-SeeClickFixCodeTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2DE8A54D766970CA5CCBE8 /* libPods-SeeClickFixCodeTestTests.a */; };
 		E91F912FE15536972EF64FB3 /* libPods-SeeClickFixCodeTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B7F0954C7A715C5308A024 /* libPods-SeeClickFixCodeTest.a */; };
@@ -46,8 +47,6 @@
 		319F6B0B1F6DAF3800084D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		319F6B0D1F6DAF3800084D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		319F6B0E1F6DAF3800084D34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		319F6B101F6DAF3800084D34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		319F6B111F6DAF3800084D34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		319F6B141F6DAF3800084D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		319F6B161F6DAF3800084D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		319F6B191F6DAF3800084D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +63,10 @@
 		319F6B4D1F6E104600084D34 /* SCFTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFTConstants.m; sourceTree = "<group>"; };
 		319F6B501F6E1ABA00084D34 /* SCFTwitterStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFTwitterStatus.h; sourceTree = "<group>"; };
 		319F6B511F6E1ABA00084D34 /* SCFTwitterStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFTwitterStatus.m; sourceTree = "<group>"; };
+		319F6B561F6EAF9600084D34 /* SCFTwitterStatusTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFTwitterStatusTableViewController.h; sourceTree = "<group>"; };
+		319F6B571F6EAF9600084D34 /* SCFTwitterStatusTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFTwitterStatusTableViewController.m; sourceTree = "<group>"; };
+		319F6B591F6EB36300084D34 /* SCFTweetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFTweetTableViewCell.h; sourceTree = "<group>"; };
+		319F6B5A1F6EB36300084D34 /* SCFTweetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFTweetTableViewCell.m; sourceTree = "<group>"; };
 		49AE34927EC0118CA3B5CBA7 /* libPods-SeeClickFixCodeTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeeClickFixCodeTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		506ADACA1FC42CE9F5BC18A8 /* Pods-SeeClickFixCodeTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeClickFixCodeTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeClickFixCodeTestTests/Pods-SeeClickFixCodeTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		7D9F72CB2CEA1E13979739FC /* Pods-SeeClickFixCodeTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeClickFixCodeTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeClickFixCodeTestUITests/Pods-SeeClickFixCodeTestUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,11 +143,11 @@
 		319F6B091F6DAF3800084D34 /* SeeClickFixCodeTest */ = {
 			isa = PBXGroup;
 			children = (
+				319F6B551F6EAF5900084D34 /* ViewController */,
+				319F6B531F6EAEC900084D34 /* View */,
 				319F6B441F6DFBD000084D34 /* Model */,
 				319F6B0D1F6DAF3800084D34 /* AppDelegate.h */,
 				319F6B0E1F6DAF3800084D34 /* AppDelegate.m */,
-				319F6B101F6DAF3800084D34 /* ViewController.h */,
-				319F6B111F6DAF3800084D34 /* ViewController.m */,
 				319F6B131F6DAF3800084D34 /* Main.storyboard */,
 				319F6B161F6DAF3800084D34 /* Assets.xcassets */,
 				319F6B181F6DAF3800084D34 /* LaunchScreen.storyboard */,
@@ -207,6 +210,32 @@
 				319F6B511F6E1ABA00084D34 /* SCFTwitterStatus.m */,
 			);
 			path = Twitter;
+			sourceTree = "<group>";
+		};
+		319F6B531F6EAEC900084D34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				319F6B541F6EAF1A00084D34 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		319F6B541F6EAF1A00084D34 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				319F6B591F6EB36300084D34 /* SCFTweetTableViewCell.h */,
+				319F6B5A1F6EB36300084D34 /* SCFTweetTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		319F6B551F6EAF5900084D34 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				319F6B561F6EAF9600084D34 /* SCFTwitterStatusTableViewController.h */,
+				319F6B571F6EAF9600084D34 /* SCFTwitterStatusTableViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		8DD95C561338A31CBCAC6595 /* Frameworks */ = {
@@ -516,10 +545,11 @@
 			files = (
 				319F6B521F6E1ABA00084D34 /* SCFTwitterStatus.m in Sources */,
 				319F6B4B1F6DFD9F00084D34 /* SCFTwitterManager.m in Sources */,
-				319F6B121F6DAF3800084D34 /* ViewController.m in Sources */,
 				319F6B0F1F6DAF3800084D34 /* AppDelegate.m in Sources */,
 				319F6B0C1F6DAF3800084D34 /* main.m in Sources */,
 				319F6B4E1F6E104600084D34 /* SCFTConstants.m in Sources */,
+				319F6B581F6EAF9600084D34 /* SCFTwitterStatusTableViewController.m in Sources */,
+				319F6B5B1F6EB36300084D34 /* SCFTweetTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
