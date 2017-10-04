@@ -7,19 +7,29 @@
 //
 
 #import "SCFTwitterStatusTableViewController.h"
-#import "SCFTwitterManager.h"
+#import "SCFTwitterService.h"
 #import "SCFTweetTableViewCell.h"
 #import <TwitterKit/TwitterKit.h>
 
 @interface SCFTwitterStatusTableViewController ()
 
 @property(nonatomic, strong) NSArray *tweets;
+@property(nonatomic, strong) SCFTwitterService *twitterService;
 
 //@property(nonatomic, weak) IBOutlet UIRefreshControl *refreshControl;
 
 @end
 
 @implementation SCFTwitterStatusTableViewController
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super initWithCoder:aDecoder]) {
+        self.twitterService = [[SCFTwitterService alloc] init];
+    }
+    
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -48,10 +58,10 @@
 
 - (void)loadTweets
 {
-    SCFTwitterManager *manager = [SCFTwitterManager sharedManager];
+    //SCFTwitterManager *manager = [SCFTwitterManager sharedManager];
     
     __weak SCFTwitterStatusTableViewController *weakSelf = self;
-    [manager loadTweets:^(NSArray *tweets) {
+    [self.twitterService loadTweets:^(NSArray *tweets) {
         SCFTwitterStatusTableViewController *strongSelf = weakSelf;
         strongSelf.tweets = tweets;
         
@@ -81,7 +91,6 @@
 
     return self.tweets.count;
 }
-
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     SCFTweetTableViewCell *cell = (SCFTweetTableViewCell*)[tableView dequeueReusableCellWithIdentifier:@"SCFTweetCell" forIndexPath:indexPath];

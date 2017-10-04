@@ -7,7 +7,6 @@ target 'SeeClickFixCodeTest' do
 
   # Pods for SeeClickFixCodeTest
 
-  pod 'AFNetworking', '~> 3.0'
   pod ‘TwitterKit’
 
   target 'SeeClickFixCodeTestTests' do

@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "SCFTwitterManager.h"
+#import "SCFTwitterService.h"
 
 @interface SeeClickFixCodeTestTests : XCTestCase
 
@@ -29,9 +29,9 @@
     
     XCTestExpectation *loadTweetsExpectation = [self expectationWithDescription:@"load tweets"];
     
-    SCFTwitterManager *manager = [SCFTwitterManager sharedManager];
+    SCFTwitterService *service = [[SCFTwitterService alloc] init];
     
-    [manager loadTweets:^(NSArray *tweets) {
+    [service loadTweets:^(NSArray *tweets) {
         
         XCTAssert(tweets.count > 0);
         

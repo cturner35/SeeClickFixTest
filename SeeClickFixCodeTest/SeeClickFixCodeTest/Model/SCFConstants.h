@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SCFTConstants : NSObject
+@interface SCFConstants : NSObject
 
+extern NSString * const TWITTER_URL;
 extern NSString * const TWITTER_API_KEY;
 extern NSString * const TWITTER_API_SECRET;
 

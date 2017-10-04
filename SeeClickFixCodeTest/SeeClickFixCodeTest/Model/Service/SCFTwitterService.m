@@ -1,19 +1,18 @@
 //
-//  SCFTwitterManager.m
+//  SCFTwitterService.m
 //  SeeClickFixCodeTest
 //
-//  Created by Chris Turner on 9/16/17.
+//  Created by Chris Turner on 10/4/17.
 //  Copyright © 2017 Chris Turner. All rights reserved.
 //
 
-#import "SCFTwitterManager.h"
+#import "SCFTwitterService.h"
 #import <TwitterKit/TwitterKit.h>
-#import "SCFTConstants.h"
+#import "SCFConstants.h"
 
-NSString * const TWITTER_URL = @"https://api.twitter.com/1.1/search/tweets.json?q=seeclickfix.com";
+extern NSString * const TWITTER_URL;
 
-@implementation SCFTwitterManager
-
+@implementation SCFTwitterService
 
 - (instancetype)init{
     self = [super init];
@@ -25,17 +24,7 @@ NSString * const TWITTER_URL = @"https://api.twitter.com/1.1/search/tweets.json?
     return self;
 }
 
-+ (instancetype)sharedManager{
-    static SCFTwitterManager *sharedManager;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedManager = [[SCFTwitterManager alloc] init];
-    });
-    
-    return sharedManager;
-}
-
-- (NSArray *)loadTweets:(SCFTTwitterCompletion)completion{
+- (NSArray *)loadTweets:(SCFTwitterCompletion)completion{
     
     TWTRAPIClient *api = [TWTRAPIClient clientWithCurrentUser];
     
@@ -49,8 +38,8 @@ NSString * const TWITTER_URL = @"https://api.twitter.com/1.1/search/tweets.json?
         
         NSError *jsonError = nil;
         NSDictionary *jsonResponse = [NSJSONSerialization JSONObjectWithData:data
-                                                                    options:NSJSONReadingAllowFragments
-                                                                      error:&jsonError];
+                                                                     options:NSJSONReadingAllowFragments
+                                                                       error:&jsonError];
         
         if (!error) {
             NSArray *tweets = [self createTweetsFromResponse:jsonResponse];
@@ -69,5 +58,6 @@ NSString * const TWITTER_URL = @"https://api.twitter.com/1.1/search/tweets.json?
     
     return [twitterTweets copy];
 }
+
 
 @end

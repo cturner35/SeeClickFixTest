@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '768BE65C4411D586681443F32B3CD09B'
+               BlueprintIdentifier = '620F3DE1BFADF7995F1C954360735448'
                BlueprintName = 'Pods-SeeClickFixCodeTest'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-SeeClickFixCodeTest.a'>
